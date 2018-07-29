@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="e3-manager-web" />
+        <module name="e3common" />
+        <module name="e3contentinterface" />
+        <module name="e3contentservice" />
+        <module name="e3managerdao" />
+        <module name="e3managerinterface" />
+        <module name="e3managerpojo" />
+        <module name="e3managerservice" />
+        <module name="e3portal" />
+        <module name="e3searchinterface" />
+        <module name="e3searchservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="e3managerweb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
